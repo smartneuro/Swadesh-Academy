@@ -54,6 +54,13 @@ export const softwareDevelopment = [
     duration: "6 months", 
     img: backendimg 
   },
+    { 
+    name: "MERN Stack", 
+    oldPrice: 18000, 
+    price: 15000, 
+    duration: "6 months", 
+    img: MERNstack 
+  },
   { 
     name: "Full Stack Development", 
     oldPrice: 34000, 
@@ -82,13 +89,7 @@ export const softwareDevelopment = [
     duration: "2–3 months", 
     img: corepython 
   },
-  { 
-    name: "MERN Stack", 
-    oldPrice: 18000, 
-    price: 15000, 
-    duration: "6 months", 
-    img: MERNstack 
-  },
+
   { 
     name: "Python FullStack", 
     oldPrice: 19000, 

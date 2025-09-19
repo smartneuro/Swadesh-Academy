@@ -7,25 +7,27 @@ import { useEffect } from "react";
 export default function CoursecardSection({ type,heading }) {
   
   const controls = useAnimation();
+ 
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
- useEffect(() => {
+
+  useEffect(() => {
     if (inView) {
       controls.start("visible");
     }
   }, [controls, inView]);
 
-const cardVariants = {
-  hidden: { opacity: 0 }, 
-  visible: (i) => ({
-    opacity: 1,
-
-    transition: {
-      delay: i * 0.1,
-      duration: 0.7,
-      ease: "easeOut",
-    },
-  }),
-};
+  const cardVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: (i) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.1,
+        duration: 0.5,
+        ease: "easeOut",
+      },
+    }),
+  };
 
 
   let coursetype = [];
@@ -34,7 +36,8 @@ const cardVariants = {
 
 
 return (
-    <motion.div className="mt-2" ref={ref}  
+    <motion.div className="mt-2"  ref={ref}
+   
           initial="hidden"
           animate={controls}
           variants={cardVariants}>

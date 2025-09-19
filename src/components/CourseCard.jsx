@@ -13,7 +13,6 @@ export default function CourseCard({ courseinfo }) {
 
   return (
     <div className="relative max-w-sm rounded-2xl overflow-hidden bg-white p-5 flex flex-col  justify-evenly gap-4 hover:shadow-2xl transition-all duration-300 border border-gray-300 drop-shadow-xl">
-      
       {/* Discount Badge */}
       {discount && (
         <span className="absolute top-3 right-3 bg-green-400 text-white text-xs font-bold px-3 py-1 rounded-md shadow-md">
@@ -41,25 +40,25 @@ export default function CourseCard({ courseinfo }) {
         />
 
         {/* Pricing */}
-        {courseinfo?.price && (
-          <div className="text-center">
-          <div className="flex items-center gap-2">
-              {courseinfo.oldPrice && (
-              <p className="text-gray-400 text-sm line-through">
-                ₹{courseinfo.oldPrice}
-              </p>
-            )}
-            <p className="text-xl font-bold text-blue-500">
-              ₹{courseinfo.price}
-            </p>
-          </div>
-           {courseinfo.duration && (
-              <p className="text-gray-600 text-sm mt-1">
-                ({courseinfo.duration})
-              </p>
-            )}
-          </div>
-        )}
+     {courseinfo?.price && (
+  <div className="text-center">
+    <div className="flex items-center gap-2">
+      {courseinfo.oldPrice && (
+        <p className="text-gray-400 text-sm line-through">
+          ₹{courseinfo.oldPrice.toLocaleString("en-IN")}
+        </p>
+      )}
+      <p className="text-xl font-bold text-blue-500">
+        ₹{courseinfo.price.toLocaleString("en-IN")}
+      </p>
+    </div>
+    {courseinfo.duration && (
+      <p className="text-gray-600 text-sm mt-1">
+        ({courseinfo.duration})
+      </p>
+    )}
+  </div>
+)}
       </div>
 
       {/* Button */}
