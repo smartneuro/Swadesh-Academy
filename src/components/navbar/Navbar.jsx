@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import MobileNav from "./MobileNav";
-import logo from "../../assets/Images/Untitled design (3).png"
+import logo from "../../assets/Images/Untitled design (3).png";
 export default function Navbar() {
  const navItem = [
     { name: "Home", path:"/" },
@@ -17,7 +17,7 @@ return (
         {/* Logo */}
         <div className="text-[1.3rem] flex items-center gap-1">
         <img src={logo} alt="logo" className="h-10 w-10"></img>
-          <h1>Swadesh <span className="text-primary">Academy</span></h1>
+          <h1> Swadesh <span className="text-primary">Academy </span></h1>
         </div>
 {/* Desktop View Nav Items */}
         <div>

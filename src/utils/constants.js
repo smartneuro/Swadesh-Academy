@@ -1,11 +1,4 @@
-import cbseAndOdishaBoardimg from "../assets/Images/1to10img.webp";
-import Exampreparation from "../assets/Images/Exampreparation.webp";
-import oneononeDoubt from "../assets/Images/oneononeDoubt.webp";
-import weeklyexamination from "../assets/Images/weeklyexamination.webp";
-// Science & commerce image..
-import science2 from "../assets/Images/sciencesubjects.webp";
-import commerce2 from "../assets/Images/Your paragraph text (7).webp"
-import commerce3 from "../assets/Images/Your paragraph text (8).webp"
+
 // software Development
 import corejavaimg from "../assets/Images/Your paragraph text (9).webp"
 import frontendimg from "../assets/Images/Your paragraph text (10).webp"
@@ -15,6 +8,9 @@ import AIwithpython from "../assets/Images/Your paragraph text (14).webp"
 import corepython from "../assets/Images/Your paragraph text (15).webp"
 import AIMLimg from "../assets/Images/Your paragraph text (16).webp"
 import E2Eproject from "../assets/Images/Your paragraph text (17).webp"
+import Javastack  from "../assets/Images/Your paragraph text (1).png"
+import Pythonstack from "../assets/Images/Your paragraph text (2).png"
+import MERNstack from "../assets/Images/Your paragraph text.png"
 export const ACADEMY_NAME = "Swadesh Academy";
 export const ABOUT_US_TEXT = `
 BriliantAcademy is a leading coaching center dedicated to providing quality education
@@ -36,67 +32,85 @@ export const SOCIAL_LINKS = {
 
 
 // coursesdata.js
-
-export const cbseAndOdishaBoard = [
-  { name: "Class 1 to 10 all subjects" ,
-    img:cbseAndOdishaBoardimg,
-  },
-  { name: "Exam preparation",
-    img:Exampreparation,
-  },
-  { name: "Weekly examination",
-    img:weeklyexamination,
-   },
-  { name: "One on one doubt clearing session" ,
-    img:oneononeDoubt,
-  }
-];
-
-export const scienceAndCommerce = [
-  { name: "+2 science all subjects",
-    img:science2,
-  },
-  { name: "+2 commerce all subjects" ,
- img:commerce2,
-  },
-  { name: "+3 commerce all subjects" ,
-    img:commerce3
-  }
-];
-
 export const softwareDevelopment = [
-  { name: "AI Development with Python", price: "₹23,500 (₹12,000 for 6 months)" ,
-   img:AIwithpython
+  { 
+    name: "AI Development with Python", 
+    oldPrice: 28000, 
+    price: 23500, 
+    duration: "6 months", 
+    img: AIwithpython 
   },
-  { name: "Frontend Development", price: "₹16,500 (₹12,000 for 6 months)" ,
-img:frontendimg,
+  { 
+    name: "Frontend Development", 
+    oldPrice: 19500, 
+    price: 16500, 
+    duration: "6 months", 
+    img: frontendimg 
   },
-  { name: "Backend Development", price: "₹16,500 (₹12,000 for 6 months)" ,
-    img:backendimg
+  { 
+    name: "Backend Development", 
+    oldPrice: 19500, 
+    price: 16500, 
+    duration: "6 months", 
+    img: backendimg 
   },
-  { name: "Full Stack Development", price: "₹28,500 (₹20,000 for 1 year)" ,
-    img:Fullstackimg,
+  { 
+    name: "Full Stack Development", 
+    oldPrice: 34000, 
+    price: 28500, 
+    duration: "1 year", 
+    img: Fullstackimg 
   },
-  { name: "AI, ML and Data Science", price: "₹16,500 (₹12,000 for 6 months)" ,
-    img:AIMLimg
+  { 
+    name: "AI, ML and Data Science", 
+    oldPrice: 20000, 
+    price: 16500, 
+    duration: "6 months", 
+    img: AIMLimg 
   },
-  { name: "Core Java", price: "₹5,000 (2–3 months)",
-      img:corejavaimg
-   },
-  { name: "Core Python", price: "₹5,000 (2–3 months)" ,
-    img:corepython,
-    
+  { 
+    name: "Core Java", 
+    oldPrice: 6000, 
+    price: 5000, 
+    duration: "2–3 months", 
+    img: corejavaimg 
   },
-  { name: "E2E Project Deployment", price: "₹12,000 (Experienced)",
-    img:E2Eproject,
-   },
-  // { name: "Software Testing in Selenium", price: "₹15,000" }
+  { 
+    name: "Core Python", 
+    oldPrice: 6000, 
+    price: 5000, 
+    duration: "2–3 months", 
+    img: corepython 
+  },
+  { 
+    name: "MERN Stack", 
+    oldPrice: 18000, 
+    price: 15000, 
+    duration: "6 months", 
+    img: MERNstack 
+  },
+  { 
+    name: "Python FullStack", 
+    oldPrice: 19000, 
+    price: 16000, 
+    duration: "6 months", 
+    img: Pythonstack 
+  },
+  { 
+    name: "JAVA FullStack", 
+    oldPrice: 19000, 
+    price: 16000, 
+    duration: "6 months", 
+    img: Javastack 
+  },
+  { 
+    name: "E2E Project Deployment", 
+    oldPrice: 14000, 
+    price: 12000, 
+    duration: "Experienced", 
+    img: E2Eproject 
+  },
 ];
 
 
-// Create a combined array for mapping
-// export const coursesdata = [
-//   { category: "CBSE & Odisha Board", courses: cbseAndOdishaBoard },
-//   { category: "Science & Commerce", courses: scienceAndCommerce },
-//   { category: "Software Development & IT", courses: softwareDevelopment }
-// ];
+

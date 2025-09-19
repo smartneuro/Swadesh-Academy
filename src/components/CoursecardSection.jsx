@@ -1,4 +1,4 @@
-import {  scienceAndCommerce, softwareDevelopment, cbseAndOdishaBoard} from "../utils/constants";
+import {   softwareDevelopment} from "../utils/constants";
 import CourseCard from "./CourseCard";
 import HeadingStyle from "./HeadingStyle";
 import { motion, useAnimation } from "motion/react";
@@ -15,13 +15,13 @@ export default function CoursecardSection({ type,heading }) {
   }, [controls, inView]);
 
 const cardVariants = {
-  hidden: { opacity: 0, x: 100 }, 
+  hidden: { opacity: 0 }, 
   visible: (i) => ({
     opacity: 1,
-    x: 0, 
+
     transition: {
       delay: i * 0.1,
-      duration: 0.6,
+      duration: 0.7,
       ease: "easeOut",
     },
   }),
@@ -29,13 +29,9 @@ const cardVariants = {
 
 
   let coursetype = [];
-if (type === "CBSE") {
-    coursetype = cbseAndOdishaBoard;
-  } else if (type === "ScienceCommerce") {
-    coursetype = scienceAndCommerce;
-  } else if (type === "Software") {
+
     coursetype = softwareDevelopment;
-  }
+
 
 return (
     <motion.div className="mt-2" ref={ref}  
