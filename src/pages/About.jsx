@@ -1,3 +1,4 @@
+import Button from "../components/Button";
 export default function About() {
   const aboutSections = [
     {
@@ -52,12 +53,7 @@ export default function About() {
         <p className="text-lg text-gray-700">
           Ready to start your journey with us?
         </p>
-        <a
-          href="/contact"
-          className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
-        >
-          Get in Touch
-        </a>
+       <Button name="Contact Us" styleType="primary"  link= "/Contact"/>
       </div>
     </section>
   );

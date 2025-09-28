@@ -9,17 +9,12 @@ export const branchAddresses = [
       "Sabalbhanga, PO - Kumurisingha, Angul-Bantala Road, near Abhiram Temple / Pentecostal Church, Odisha - 759129",
   },
 ];
-export const cbseAndOdishaBoardLinks = [
-  "Class 1 to 10 all subjects",
-  "Exam preparation",
-  "Weekly examination",
-  "One on one doubt clearing session",
-];
 
-export const scienceAndCommerceLinks = [
-  "+2 science all subjects",
-  "+2 commerce all subjects",
-  "+3 commerce all subjects",
+
+export const  Other= [
+  "Communication Skill",
+  "Reasoning and Aptitude",
+  "Interview Preparation ",
 ];
 
 export const softwareDevelopmentLinks = [

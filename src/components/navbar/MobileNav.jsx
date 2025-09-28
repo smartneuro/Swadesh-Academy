@@ -43,7 +43,7 @@ return (
                   }
                 }}
                 onTapCancel={() => setClickCheck(null)}
-                className="relative flex flex-col gap-2 cursor-pointer hover:bg-blue-200 p-3 rounded-3xl"
+                className="relative flex flex-col gap-2 cursor-pointer  hover:bg-blue-700/20 transition-all ease-in-out duration-100  p-3 rounded-xl"
               >
                 <div className="flex items-center justify-between">
                   <span>{item.name}</span>

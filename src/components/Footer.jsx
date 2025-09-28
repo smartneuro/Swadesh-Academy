@@ -1,7 +1,7 @@
 import {
   branchAddresses,
-  cbseAndOdishaBoardLinks,
-  scienceAndCommerceLinks,
+  Other,
+
   softwareDevelopmentLinks,
 } from "../utils/FooterData";
 
@@ -28,11 +28,10 @@ function FooterSection({ title, items }) {
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-10 px-3 mb-0 min-h-[250px] flex flex-col justify-between">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        <FooterSection title="Branch Addresses" items={branchAddresses} />
-        <FooterSection title="CBSE And Odisha Board" items={cbseAndOdishaBoardLinks} />
-        <FooterSection title="Science And Commerce" items={scienceAndCommerceLinks} />
-        <FooterSection title="Software Development" items={softwareDevelopmentLinks} />
+      <div className="max-w-7xl mx-auto grid justify-items-center grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <FooterSection title="Branch Addresses" items={branchAddresses} />
+       <FooterSection title="Software Development" items={softwareDevelopmentLinks} />
+       <FooterSection title="Career Skills" items={Other} />
       </div>
 
       <div className="text-center text-sm text-gray-500 mt-10">
