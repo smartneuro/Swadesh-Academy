@@ -10,6 +10,7 @@ import AIMLimg from "../assets/Images/Your paragraph text (16).webp"
 import E2Eproject from "../assets/Images/Your paragraph text (17).webp"
 import Javastack  from "../assets/Images/Your paragraph text (1).png"
 import Pythonstack from "../assets/Images/Your paragraph text (2).png"
+import MobileApp from "../assets/Images/Your paragraph text (3).png"
 import MERNstack from "../assets/Images/Your paragraph text.png"
 export const ACADEMY_NAME = "Swadesh Academy";
 export const ABOUT_US_TEXT = `
@@ -34,84 +35,75 @@ export const SOCIAL_LINKS = {
 // coursesdata.js
 export const softwareDevelopment = [
   { 
-    name: "AI Development with Python", 
-    oldPrice: 28000, 
-    price: 23500, 
-    duration: "6 months", 
-    img: AIwithpython 
+    name: "Gen AI", 
+    oldPrice: 11200, 
+    price: 8000, 
+    duration: "4 months", 
+    img: AIwithpython,
+    tech: ["Python", "Machine Learning", "Prompt Engineering", "LangChain", "OpenAI API"]
   },
   { 
     name: "Frontend Development", 
-    oldPrice: 19500, 
-    price: 16500, 
-    duration: "6 months", 
-    img: frontendimg 
+    oldPrice: 7000, 
+    price: 5000, 
+    duration: "3 months", 
+    img: frontendimg,
+    tech: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"]
   },
   { 
     name: "Backend Development", 
-    oldPrice: 19500, 
-    price: 16500, 
-    duration: "6 months", 
-    img: backendimg 
-  },
-    { 
-    name: "MERN Stack", 
-    oldPrice: 18000, 
-    price: 15000, 
-    duration: "6 months", 
-    img: MERNstack 
+    oldPrice: 8400, 
+    price: 6000, 
+    duration: "4 months", 
+    img: backendimg,
+    tech: ["Node.js", "Express.js", "MongoDB", "REST API", "Authentication"]
   },
   { 
     name: "Full Stack Development", 
-    oldPrice: 34000, 
-    price: 28500, 
-    duration: "1 year", 
-    img: Fullstackimg 
+    oldPrice: 14000, 
+    price: 10000, 
+    duration: "7 months", 
+    img: Fullstackimg,
+    tech: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB"]
   },
   { 
-    name: "AI, ML and Data Science", 
-    oldPrice: 20000, 
-    price: 16500, 
-    duration: "6 months", 
-    img: AIMLimg 
-  },
-  { 
-    name: "Core Java", 
-    oldPrice: 6000, 
-    price: 5000, 
-    duration: "2–3 months", 
-    img: corejavaimg 
+    name: "Gen AI Full Stack Development", 
+    oldPrice: 16800, 
+    price: 12000, 
+    duration: "7 months", 
+    img: Pythonstack,
+    tech: ["React", "Node.js", "MongoDB", "Python", "AI Tools", "LangChain", "OpenAI API"]
   },
   { 
     name: "Core Python", 
-    oldPrice: 6000, 
+    oldPrice: 7000, 
     price: 5000, 
-    duration: "2–3 months", 
-    img: corepython 
-  },
-
-  { 
-    name: "Python FullStack", 
-    oldPrice: 19000, 
-    price: 16000, 
-    duration: "6 months", 
-    img: Pythonstack 
+    duration: "3 months", 
+    img: corepython,
+    tech: ["Python Basics", "OOPs", "File Handling", "Modules", "Error Handling"]
   },
   { 
-    name: "JAVA FullStack", 
-    oldPrice: 19000, 
-    price: 16000, 
-    duration: "6 months", 
-    img: Javastack 
+    name: "Core Java", 
+    oldPrice: 7000, 
+    price: 5000, 
+    duration: "3 months", 
+    img: corejavaimg,
+    tech: ["Java Basics", "OOPs", "Collections", "Exception Handling", "JDBC"]
   },
   { 
-    name: "E2E Project Deployment", 
+    name: "Mobile App Development", 
     oldPrice: 14000, 
-    price: 12000, 
-    duration: "Experienced", 
-    img: E2Eproject 
+    price: 10000, 
+    duration: "6 months", 
+    img: MobileApp,
+    tech: ["React Native", "Expo", "JavaScript", "Firebase", "APIs"]
+  },
+  { 
+    name: "Software Testing", 
+    oldPrice: 7000, 
+    price: 5000, 
+    duration: "3 months", 
+    img: E2Eproject,
+    tech: ["Manual Testing", "Automation", "Selenium", "Test Cases", "Bug Tracking"]
   },
 ];
-
-
-

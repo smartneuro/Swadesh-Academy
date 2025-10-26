@@ -28,7 +28,7 @@ function FooterSection({ title, items }) {
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-10 px-3 mb-0 min-h-[250px] flex flex-col justify-between">
-      <div className="max-w-7xl mx-auto grid justify-items-center grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="max-w-7xl mx-auto grid md:justify-items-center grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <FooterSection title="Branch Addresses" items={branchAddresses} />
        <FooterSection title="Software Development" items={softwareDevelopmentLinks} />
        <FooterSection title="Career Skills" items={Other} />
