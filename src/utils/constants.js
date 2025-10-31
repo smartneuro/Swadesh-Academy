@@ -1,17 +1,12 @@
 
 // software Development
-import corejavaimg from "../assets/Images/Your paragraph text (9).webp"
-import frontendimg from "../assets/Images/Your paragraph text (10).webp"
-import Fullstackimg from "../assets/Images/Your paragraph text (13).webp"
-import backendimg from "../assets/Images/Your paragraph text (11).webp"
-import AIwithpython from "../assets/Images/Your paragraph text (14).webp"
-import corepython from "../assets/Images/Your paragraph text (15).webp"
-import AIMLimg from "../assets/Images/Your paragraph text (16).webp"
-import E2Eproject from "../assets/Images/Your paragraph text (17).webp"
-import Javastack  from "../assets/Images/Your paragraph text (1).png"
-import Pythonstack from "../assets/Images/Your paragraph text (2).png"
-import MobileApp from "../assets/Images/Your paragraph text (3).png"
-import MERNstack from "../assets/Images/Your paragraph text.png"
+import frontendimg from "../assets/Images/Your paragraph text (4).png"
+import backendimg  from "../assets/Images/Your paragraph text (5).png"
+import Fullstackimg  from "../assets/Images/Your paragraph text (6).png"
+import corejavaimg from "../assets/Images/Your paragraph text (7).png"
+import corepython from "../assets/Images/Your paragraph text (8).png"
+import AIwithpython  from "../assets/Images/Your paragraph text (9).png"
+
 export const ACADEMY_NAME = "Swadesh Academy";
 export const ABOUT_US_TEXT = `
 BriliantAcademy is a leading coaching center dedicated to providing quality education
@@ -66,14 +61,7 @@ export const softwareDevelopment = [
     img: Fullstackimg,
     tech: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js", "MongoDB"]
   },
-  { 
-    name: "Gen AI Full Stack Development", 
-    oldPrice: 16800, 
-    price: 12000, 
-    duration: "7 months", 
-    img: Pythonstack,
-    tech: ["React", "Node.js", "MongoDB", "Python", "AI Tools", "LangChain", "OpenAI API"]
-  },
+
   { 
     name: "Core Python", 
     oldPrice: 7000, 
@@ -90,20 +78,6 @@ export const softwareDevelopment = [
     img: corejavaimg,
     tech: ["Java Basics", "OOPs", "Collections", "Exception Handling", "JDBC"]
   },
-  { 
-    name: "Mobile App Development", 
-    oldPrice: 14000, 
-    price: 10000, 
-    duration: "6 months", 
-    img: MobileApp,
-    tech: ["React Native", "Expo", "JavaScript", "Firebase", "APIs"]
-  },
-  { 
-    name: "Software Testing", 
-    oldPrice: 7000, 
-    price: 5000, 
-    duration: "3 months", 
-    img: E2Eproject,
-    tech: ["Manual Testing", "Automation", "Selenium", "Test Cases", "Bug Tracking"]
-  },
+ 
+  
 ];

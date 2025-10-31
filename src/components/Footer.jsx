@@ -35,7 +35,7 @@ export default function Footer() {
       </div>
 
       <div className="text-center text-sm text-gray-500 mt-10">
-        © {new Date().getFullYear()} Stackneuro. All rights reserved.
+        © {new Date().getFullYear()} BriliantAcademy. All rights reserved.
       </div>
     </footer>
   );

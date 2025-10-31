@@ -15,9 +15,9 @@ return (
     <nav className="shadow-md h-15 sticky top-0 z-50 bg-white ">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-3 py-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="text-[1.3rem] flex items-center gap-1">
-        <img src={logo} alt="logo" className="h-10 w-10"></img>
-          <h1> Swadesh <span className="text-primary">Academy </span></h1>
+        <div className="text-[1.3rem] font-medium flex items-center gap-1">
+        {/* <img src={logo} alt="logo" className="h-10 w-10"></img> */}
+          <h1> Briliant <span className="text-primary">Academy </span></h1>
         </div>
 {/* Desktop View Nav Items */}
         <div>

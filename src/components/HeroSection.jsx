@@ -13,7 +13,7 @@ return (
         <span className="text-primary">{text2}</span> 
       </h1>
       <p className="text-para text-[1.2rem] ">
-          Start your journey with Swadesh Academy today.
+          Start your journey with Briliant Academy today.
         </p>
        <div className="flex items-center justify-center gap-3 lg:justify-start">
           <Button name="Contact Us" styleType="outline"  link= "Contact"/>
